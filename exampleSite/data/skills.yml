@@ -1,0 +1,28 @@
+title: Skills
+categories:
+  - title: Environnements
+    skills:
+      - Linux
+      - Contenarized
+      - Virtualized
+      - Clustered
+  - title: Languages
+    skills:
+      - Shell
+      - C
+      - C++
+      - Python
+      - Go
+      - Ocaml
+      - Haskell
+      - Java
+  - title: Tools
+    skills:
+      - Git
+      - Docker
+      - Docker Compose
+      - Swarm
+      - Kubernetes
+      - Ceph
+      - GlusterFs
+      - S6

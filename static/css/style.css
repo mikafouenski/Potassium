@@ -1,0 +1,131 @@
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.rounded-bottom {
+    border-bottom-right-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+}
+
+.nav-animate {
+    transition: all 0.3s ease;
+}
+
+.navbar-light {
+    box-shadow: 0 3px 10px rgba(0,0,0,.3);
+    background-color: #fff;
+}
+
+.navbar-dark .btn-social {
+    color: rgba(255,255,255,.8) !important;
+}
+
+.navbar-light .btn-social {
+    color: rgba(0,0,0,.5) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.8);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255);
+}
+
+.btn-social {
+    font-size: 22px;
+}
+
+.cover {
+    height: 400px;
+    background: linear-gradient(120deg, #36df93 0%, #4d9de0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.cover .sub-heading {
+    opacity: .8;
+}
+
+.rounded-custom {
+    border-radius: 8px;
+    padding: .575rem 1.12rem;
+}
+
+.education:nth-of-type(1) .icon {
+    background: linear-gradient(to bottom right, #32d6fb 0%, #5558ed 100%);
+    box-shadow: 0 8px 10px #96eafd;
+}
+
+.education:nth-of-type(2) .icon {
+    background: linear-gradient(to bottom right, #fc5f3c 0%, #ff55d3 100%);
+    box-shadow: 0 8px 10px #feb1a0;
+}
+
+.education:nth-of-type(3) .icon {
+    background: linear-gradient(to bottom right, #fad470 0%, #f96933 100%);
+    box-shadow: 0 8px 10px #fdf2d3;
+}
+
+.education:nth-of-type(4) .icon {
+    background: linear-gradient(to bottom right, #1cf196 0%, #36a6bf 100%);
+    box-shadow: 0 8px 10px #7cf7c2;
+}
+
+.education .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    border-radius: 100px;
+    color: #fff;
+}
+
+#skills {
+    background: linear-gradient(170deg, #ffffff 0%,#ffffff 44.9%,#fc5f3c 45%,#ff55d3 90%, #ffffff 90.1%, #ffffff 100%);
+}
+
+.skills {
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2),0 20px 10px -13px rgba(0,0,0,.1);
+    background-color: #fff;
+}
+
+.skills .title {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.skills .features {
+    font-size: 14px;
+}
+
+.text-success {
+    color: #36df93 !important;
+}
+
+.form-custom {
+    padding: .575rem 1.12rem;
+    background-color: #e9ecef;
+    border: 1px solid #f8f9fa;
+    height: auto !important;
+}
+
+#footer {
+    border-top: solid 1px #e9ecef;
+}
+
+#footer a {
+    color: rgba(0,0,0,0.5);
+}
+
+#mobile-social a {
+    color: rgba(0,0,0,0.5);
+    font-size: 30px;
+}

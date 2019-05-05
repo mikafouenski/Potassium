@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+    <section id="education" class="text-center py-5">
+      <div class="container">
+          <h2 class="pt-5 h2">{{ .Site.Data.notfound.message }}</h2>
+      </div>
+    </section>
+
+     <section id="mobile-social"  class="py-3 text-center">
+       <div class="container">
+         {{ range .Site.Data.socials  }}
+         <a href="{{ .link  }}" class="ml-2 btn-social"><i class="fab fa-{{ .icon  }}"></i></a>
+         {{ end  }}
+       </div>
+     </section>
+
+{{ partial "footer.html" . }}
+{{ partial "end.html" . }}

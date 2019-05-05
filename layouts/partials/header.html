@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ .Title }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- hugo tag -->
+        {{ .Hugo.Generator }}
+
+        <!-- og -->
+        <meta name="og:title" content="{{ .Title }}"/>
+	    <meta name="og:url" content="{{ .Permalink }}"/>
+	    {{ if .Site.Params.featuredimage }}
+	    <meta name="og:image" content="{{ .Site.Params.featuredimage }}"/>
+	    {{ end }}
+	    {{ if .Site.Params.description }}
+	    <meta name="og:description" content="{{ .Site.Params.description }}"/>
+	    {{ end }}
+        <meta name="og:site_name" content="{{ .Title }}"/>
+
+        <link
+            rel="icon" 
+            type="image/png" 
+            href="{{ .Site.Params.logoimage }}">
+
+        <!-- includes -->
+        <link
+            href='https://fonts.googleapis.com/css?family=Open+Sans'
+            rel='stylesheet'
+            type='text/css'>
+        <link 
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+            type="text/css">
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="css/style.css">
+    </head>
+
+    <body class="font-open-sans">
+

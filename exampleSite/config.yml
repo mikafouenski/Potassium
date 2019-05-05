@@ -1,0 +1,14 @@
+baseURL: "/"
+title: "Mickael Bernardini"
+defaultContentLanguage: en
+languages:
+  en:
+    lang: en
+    languageName: English
+    weight: 1
+MetaDataFormat: "yaml"
+theme: "Potassium"
+params:
+  description: "Mickael Bernardini Open source personal resume site"
+  featuredimage: "assets/face.png"
+  logoimage: "assets/logo.png"

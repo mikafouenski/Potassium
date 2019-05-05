@@ -1,0 +1,27 @@
+    <nav class="navbar nav-transparent nav-animate navbar-expand-lg navbar-dark fixed-top rounded-bottom">
+      <a class="navbar-brand" href="#cover">
+          <img src="{{ .Site.Params.logoimage }}" height="40px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          {{ range .Site.Data.nav }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .href }}">{{ .title }}</a>
+          </li>
+          {{ end }}
+        </ul>
+        <ul class="d-none d-lg-flex ml-auto navbar-nav">
+          {{ range .Site.Data.socials }}
+          <li class="nav-item">
+            <a href="{{ .link }}" class="ml-3 text-white btn-social" target="_blank">
+              <i class="fab fa-{{ .icon }}"></i>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </nav>
+        
