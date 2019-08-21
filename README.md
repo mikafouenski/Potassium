@@ -9,6 +9,7 @@ This theme use:
 - [Bootstrap 4](https://getbootstrap.com/)
 - [Fontawsome](https://fontawesome.com/)
 - [Open Sans (Google)](https://fonts.google.com/specimen/Open+Sans)
+- [Rubik (Google)](https://fonts.google.com/specimen/Rubik)
 - [Jquery](https://code.jquery.com/)
 
 ### Documentation

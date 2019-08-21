@@ -6,6 +6,10 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     display: block;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Rubik", sans-serif;
+}
+
 .rounded-bottom {
     border-bottom-right-radius: 8px !important;
     border-bottom-left-radius: 8px !important;
