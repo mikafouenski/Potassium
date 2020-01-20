@@ -10,14 +10,16 @@
 
         <!-- og -->
         <meta name="og:title" content="{{ .Title }}"/>
-	    <meta name="og:url" content="{{ .Permalink }}"/>
-	    {{ if .Site.Params.featuredimage }}
-	    <meta name="og:image" content="{{ .Site.Params.featuredimage }}"/>
-	    {{ end }}
-	    {{ if .Site.Params.description }}
-	    <meta name="og:description" content="{{ .Site.Params.description }}"/>
-	    {{ end }}
+        <meta name="og:url" content="{{ .Permalink }}"/>
+        {{ if .Site.Params.featuredimage }}
+        <meta name="og:image" content="{{ .Site.Params.featuredimage }}"/>
+        {{ end }}
+        {{ if .Site.Params.description }}
+        <meta name="Description" content="{{ .Site.Params.description }}"/>
+        <meta name="og:description" content="{{ .Site.Params.description }}"/>
+        {{ end }}
         <meta name="og:site_name" content="{{ .Title }}"/>
+        <meta name="subject" content="{{ .Title }}">
 
         <link
             rel="icon" 
