@@ -31,7 +31,7 @@
             {{ end }}
           </div>
           <div class="col-12 col-lg-8 col-md-12">
-            <form class="needs-validation" action="https://formspree.io/{{ $contact.email }}" method="POST">
+            <form class="needs-validation" action="https://formspree.io/{{ $contact.formspreeid }}" method="POST">
                 <div class="row">
                   <div class="col-12 col-lg-6 col-md-6">
                     <div class="form-group">
@@ -42,7 +42,7 @@
                   <div class="col-12 col-lg-6 col-md-6">
                     <div class="form-group">
                       <label>Email</label>
-                      <input type="email" name="Email" class="form-control form-custom rounded-custom" placeholder="Email" required>
+                      <input type="email" name="_replyto" class="form-control form-custom rounded-custom" placeholder="Email" required>
                     </div>
                   </div>
                   <div class="col-12">
